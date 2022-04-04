@@ -6,12 +6,33 @@
   font-family: 'Russo One', sans-serif;
 }
 
+.gradiant-button {
+  width: 253px;
+  height: 67px;
+  color: white;
+  background: linear-gradient(to right, #6B1EF1, #CB28E5);
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
 .gradient-btn {
   width: 160px;
   height: 55px;
   color: white;
+  cursor: pointer;
   border: 2px;
   border-style: solid;
   border-image: linear-gradient(to right, #6B1EF1, #CB28E5);
   border-image-slice: 1;
+}
+
+.gradient-text {
+  background-color: #f3ec78;
+  background-image: linear-gradient(to right, #6B1EF1, #CB28E5);
+  font-size: 22px;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }

@@ -3,18 +3,19 @@ import logo from "../Photos/Vector.png"
 
 function Menu() {
     return (
-        <div className=' w-[1325px] h-[57px] mx-auto flex justify-between'>
-            <div className=' flex items-center'>
+        <div className=' absolute top-0 left-1/2 -translate-x-1/2 z-50 w-[1347px] flex justify-between items-center py-5'>
+            <div className=' flex items-center cursor-pointer'>
                 <img src={logo} alt="" className=' w-[50px]' />
                 <p className=' text-white ml-3 capitalize russo-one text-xl leading-6'>space</p>
             </div>
-            <div className=' h-full flex items-center'>
-                <ul className=' flex items-center'>
-                    <p className=' text-white mr-10 cursor-pointer hover:text-purple-600 font-sans'>Home</p>
-                    <p className=' text-white mr-10 cursor-pointer hover:text-purple-600 font-sans'>About Us</p>
-                    <p className=' text-white mr-10 cursor-pointer hover:text-purple-600 font-sans'>Story</p>
-                    <p className=' text-white mr-10 cursor-pointer hover:text-purple-600 font-sans'>Blog</p>
-                </ul>
+            <div className='flex items-center'>
+                <div className=' flex items-center'>
+                    <p className=' mr-10 text-purple-600 cursor-pointer '>Home</p>
+                    <p className=' mr-10 text-white hover:text-purple-600 cursor-pointer'>Contact Us</p>
+                    <p className=' mr-10 text-white hover:text-purple-600 cursor-pointer'>Home</p>
+                    <p className=' mr-10 text-white hover:text-purple-600 cursor-pointer'>Home</p>
+                    <p className=' mr-10 text-white hover:text-purple-600 cursor-pointer'>Home</p>
+                </div>
                 <button className='gradient-btn' >Contact Us</button>
             </div>
         </div>

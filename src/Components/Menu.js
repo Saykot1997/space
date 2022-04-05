@@ -10,13 +10,12 @@ function Menu() {
             </div>
             <div className='flex items-center'>
                 <div className=' flex items-center'>
-                    <p className=' mr-10 text-purple-600 cursor-pointer '>Home</p>
-                    <p className=' mr-10 text-white hover:text-purple-600 cursor-pointer'>Contact Us</p>
-                    <p className=' mr-10 text-white hover:text-purple-600 cursor-pointer'>Home</p>
-                    <p className=' mr-10 text-white hover:text-purple-600 cursor-pointer'>Home</p>
-                    <p className=' mr-10 text-white hover:text-purple-600 cursor-pointer'>Home</p>
+                    <p className=' mr-14 text-xl text-purple-600 cursor-pointer '>Home</p>
+                    <p className=' mr-14 text-xl text-white hover:text-purple-600 cursor-pointer'>About Us</p>
+                    <p className=' mr-14 text-xl text-white hover:text-purple-600 cursor-pointer'>Story</p>
+                    <p className=' mr-14 text-xl text-white hover:text-purple-600 cursor-pointer'>Blog</p>
                 </div>
-                <button className='gradient-btn' >Contact Us</button>
+                <button className='gradient-btn text-lg' >Contact Us</button>
             </div>
         </div>
     )

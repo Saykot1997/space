@@ -10,9 +10,9 @@ function HeroSection() {
         <div className=' w-full'>
             <img src={planet} alt="" className=" absolute right-0 top-0" />
             <img src={Asset5} alt="" className=" absolute right-[500px] top-10 animate-zoomInOut" />
-            <img src={Asset31} alt="" className=" absolute left-[90px] top-[164px] w-[122px] animate-customSpin" />
+            <img src={Asset31} alt="" className=" absolute left-[90px] top-[164px] w-0 lg:w-[122px] animate-customSpin" />
             <img src={Ellipse} alt="" className=" absolute left-[-30px] top-[340px] w-[310px] animate-zoomInOut" />
-            <div className='w-[1347px] mx-auto'>
+            <div className=' xl:w-full 2xl:w-[1347px] mx-auto'>
                 <HeroComponent />
             </div>
         </div>

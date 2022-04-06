@@ -16,6 +16,14 @@
   transition: all 0.5s ease-in-out;
 }
 
+@media screen and (max-width: 768px) {
+  .gradiant-button {
+    width: 180px;
+    height: 40px;
+    margin-top: 20px;
+  }
+}
+
 .gradient-btn {
   width: 160px;
   height: 55px;
@@ -27,6 +35,21 @@
   border-image-slice: 1;
   transition: all 0.5s ease-in-out;
 }
+
+@media screen and (max-width: 1024px) {
+  .gradient-btn {
+    width: 140px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gradient-btn {
+    width: 120px;
+    height: 40px;
+  }
+}
+
 
 .gradiant-button:hover {
   background: transparent;
@@ -49,6 +72,12 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 640px) {
+  .gradient-text {
+    font-size: 18px;
+  }
 }
 
 .text-limit {

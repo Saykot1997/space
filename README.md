@@ -29,5 +29,6 @@ Your app is ready to be deployed!
 ### `docker run -p 3000:3000 saykot/space:1.0.0`
 
 I have build docker image and pushed in dockerhub and this is the script to run app in the docker container if the machine has docker install.
+Once docker images pull from dockerhub you can see the app in localhost:3000 because the script is bind to localhost:3000
 
 
